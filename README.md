@@ -1,6 +1,6 @@
 ## My Learning Odyssey 
 
-[![See Live Preview Hare!](https://abm1119.github.io/My-Learning-Track/)]
+![See Live Preview Hare!](https://abm1119.github.io/My-Learning-Track/)
 
 [![Website Preview](https://snipboard.io/gjihAp.jpg)](https://your-website-url.com) 
 
