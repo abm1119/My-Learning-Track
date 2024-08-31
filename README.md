@@ -1,7 +1,7 @@
 ## My Learning Odyssey 
 
-## See Live Preview Here!
-!(https://abm1119.github.io/My-Learning-Track/)
+## See Live Preview Here👇🏻!
+[Click Here ](https://abm1119.github.io/My-Learning-Track/)
 
 [![Website Preview](https://snipboard.io/gjihAp.jpg)](https://your-website-url.com) 
 
