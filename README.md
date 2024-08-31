@@ -1,6 +1,6 @@
 ## My Learning Odyssey 
 
-[![Website Preview](https://ibb.co/HhTsdm6)](https://your-website-url.com)
+(https://ibb.co/HhTsdm6)](https://your-website-url.com)
 
 This repository contains the source code for the My Learning Odyssey website, a comprehensive showcase of my learning journey across various technical domains. This website is a testament to my dedication to continuous learning and my passion for exploring new technologies. 
 
