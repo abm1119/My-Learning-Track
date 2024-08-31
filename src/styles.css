@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-gray-200 h-screen;
+}
+
+.sidebar {
+	@apply w-64 bg-gray-100 h-full py-4 px-6;
+}
+
+.sidebar ul {
+	@apply list-none m-0 p-0;
+}
+
+.sidebar li {
+	@apply mb-4;
+}
+
+.sidebar a {
+	@apply text-gray-600 hover:text-gray-900;
+}
+
+.main-content {
+	@apply flex-1 p-4;
+}
+
+.card {
+	@apply bg-white p-4 shadow-md;
+}
+
+.card h2 {
+	@apply text-lg font-bold;
+}
+
+.contact-info {
+	@apply mt-4;
+}
+
+.contact-info p {
+	@apply mb-4;
+}
+
+.social-handles {
+	@apply list-none m-0 p-0;
+}
+
+.social-handles li {
+	@apply mb-4;
+}
+
+.social-handles a {
+	@apply text-gray-600 hover:text-gray-900;
+}
+
+.social-handles i {
+	@apply mr-2;
+}

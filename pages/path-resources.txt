@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="header">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> My Learning Resources - All </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <main id="home">
+    <div class="first">
+      <h1>Welcome to Android App Development Course Links</h1>
+    </div>
+    <div class="second">
+      <h2>I am Abdul Basit Memon - Computer Systems Engineering Student </h2>
+    </div>
+    <hr class="solid">
+    <section class="path1">
+      <div class="CS50-Track">
+        <a href="https://cs50.harvard.edu/x/2020/tracks/mobile/android/#:~:text=s%201,%202,%20and%203,%20submit%20Pok%C3%A9dex."
+          target="blank"><button class="button">CS50 Android Track</button> </a>
+      </div>
+      <hr class="dotted">
+      <div class="third">
+        <h3>Here is additional Links ... </h3>
+      </div>
+      <p class="parah_1">Link #1 👇 </p>
+      <a href="https://ddrohan.gitbooks.io/android-101-labs-as/content/session2/lab/md/exercises.html"
+        target="blank"><button class="button">Practice Site</button></a>
+      <p class="parah_2">Link # 2 👇 </p>
+      <a href="https://roadmap.sh/android" target="blank"><button class="button">Android Roadmap or Outline</button>
+      </a>
+      <p class="parah_3">Link # 3 👇 </p>
+      <a href="https://www.youtube.com/playlist?list=PLhQjrBD2T381qULidYDKP55-4u1piASC1"><button class="button">Android
+          Cs50 Track Youtube Playlist</button></a>
+      <a
+        href="https://www.youtube.com/watch?v=2fp4K21Hsy8&list=PLUhfM8afLE_NQbVaoIEhceR9npbY57Pdg&ab_channel=NeatRoots"><button
+          class="button">Neat Roots Android Youtube Playlist</button></a>
+  </section>
+    <section class="path2">
+      <div class="third">
+        <h3> More Resources </h3>
+      </div>
+      <a href="https://developer.android.com/" target="blank"><button class="button"> Official Website<button> </a>
+      <a href="https://github.com/wahibhaq/ultimate-resources-android-devs" target="blank"><button
+          class="button">Ultimate Resources - GitHub <button> </a>
+      <a href="https://github.com/androiddevnotes/awesome-android-learning-resources" target="blank"><button
+          class="button"> Awesome-Resources - GitHub<button> </a>
+      <a href="https://google-developer-training.github.io/android-developer-fundamentals-course-concepts/en/Unit%201/14_c_resources_to_help_you_learn.html"
+        target="blank"><button class="button"> Fundamental Course - GitBook<button> </a>
+      <a href="https://github.com/adriantache/Android-Development-Resources" target="blank"><button class="button">
+          Additional Resources GitHub<button> </a>
+      <a href="https://codelabs.developers.google.com/?product=android"target="blank"><button class="button">Google Codelabs<button></a>
+ <a href="https://info448-s17.github.io/lecture-notes/introduction.html"target="blank"><button class="button">Lecture Notes<button></a>
+</section>
+
+<!-- Section 3 path3 -->
+    <section class="path3">
+<div class="container">
+    <div class="content">
+      <h1>Learning Resources for Kotlin For Multiplatforms</h1>
+        <table>
+            <tr>
+                <th>Resource Name</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td class="section-title">Official Website</td>
+                <td class="section">
+                    <a href="https://kotlinlang.org/docs/multiplatform-get-started.html" target="_blank">Kotlin Multiplatform Docs</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-title">KMP by JetBrains</td>
+                <td class="section">
+                    <a href="https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html" target="_blank">KMP by JetBrains</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-title">Medium - Blogs</td>
+                <td class="section">
+                    <a href="https://devjorgecastro.medium.com/kotlin-multiplatform-this-is-the-way-b27dea8537a2" target="_blank">Kotlin Multiplatform Blog</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-title">YouTube Channels</td>
+                <td class="section">
+                    <a href="https://www.youtube.com/watch?v=AsH8hHB0XbA&list=PLxQfUudnyD_-_VSdzFgzACsJawSB0QKye" target="_blank">Petros Efthymiou</a>
+                    <a href="https://www.youtube.com/watch?v=zI9pyOTeReM&list=PL7W-WmzNxofKpvoPcCWDzeBL6FPS216f3" target="_blank">Coding Ambitions</a>
+                    <a href="https://www.youtube.com/watch?v=1w-LTUm_iDE" target="_blank">Philipp Lackner</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-title">GitHub Repos</td>
+                <td class="section">
+                    <a href="https://github.com/terrakok/kmp-awesome" target="_blank">KMP Awesome</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="section-title">Essential Resources</td>
+                <td class="section">
+                    <a href="https://kotlinlang.org/education/" target="_blank">Kotlin Education</a>
+                    <a href="https://www.kodeco.com/books/kotlin-multiplatform-by-tutorials/v1.0/chapters/1-introduction" target="_blank">Kodeco Step by Step Guide</a>
+                </td>
+            </tr>
+        </table>
+	</section>
+    <section class="path4">
+
+<div class="container">
+    <div class="content">
+      <h1>Learning Resources for Web Deelopment</h1>
+        <table>
+            <tr>
+                <th>Resource Name</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td class="section-title">Tailwind Css zero to Hero</td>
+                <td class="section">
+                    <a href="https://daily.dev/blog/tailwind-css-from-zero-to-hero-responsiveness-and-custom-utilities-part-3-of-4" target="_blank">Tailwind Css Resources </a>
+                </td>
+            </tr>
+	</section>
+
+  </main>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@700&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-size: 18px;
+      font-family: 'georgia';
+      font-weight: bold;
+      height: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 900;
+    }
+
+    /* Solid border */
+    hr.solid {
+      border-top: 3px solid #553c9a;
+      margin-bottom: 4px;
+    }
+
+    /* Dotted border */
+    hr.dotted {
+      border-top: 3px dotted #302f59;
+      margin-top: 5px;
+    }
+
+    .first h1 {
+      font: 38px 'Lora', Verdana, Helvetica, sans-serif;
+      color: #272646;
+      margin: .3em 0 .3em 0;
+      letter-spacing: -1px;
+      text-align: center;
+      position: relative;
+      font-size: 58px;
+      font-weight: 60;
+      background-image: linear-gradient(to left, #553c9a, #b393d3);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+    .second h2 {
+      font: 34px 'Lora', Arial, Verdana, Helvetica, sans-serif;
+      color: #302f59;
+      margin: .3em 0;
+      letter-spacing: 1px;
+      text-align: center;
+
+    }
+
+    .third h3 {
+      font: 34px 'Lora', Arial, Verdana, Helvetica, sans-serif;
+      margin: .3em 0;
+      letter-spacing: 1px;
+      text-align: center;
+      background: -webkit-linear-gradient(#051937, #004d7a, #008793, #a8eb12);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .parah_1,
+    .parah_2,
+    .parah_3 {
+      font-family: Arial;
+      font-size: 16px;
+      color: blue;
+      line-height: 1.5;
+    }
+
+    /* gradient text for modern browsers */
+    @supports (background-clip: text) {
+
+      .parah_1,
+      .parah_2,
+      .parah_3 {
+        background-image: linear-gradient(#E21143, #FFB03A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+      /* CSS */
+      .button {
+        appearance: none;
+        background-color: transparent;
+        border: 1px solid #1A1A1A;
+        box-sizing: border-box;
+        color: #0d0113;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 16px;
+        font-weight: 60;
+        line-height: 2px;
+        margin: 0;
+        min-width: 0;
+        outline: none;
+        padding: 13px 23px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: auto;
+        will-change: transform;
+        font-weight: 400;
+
+      }
+
+      .button:disabled {
+        pointer-events: none;
+      }
+
+      .button:hover {
+        color: #fff;
+        background-color: #1A1A1A;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+      }
+
+      .button:active {
+        box-shadow: none;
+        transform: translateY(0);
+      }
+
+      p {
+        margin-left: 14px;
+        border-bottom: 1.5px solid #E21143;
+        margin-bottom: 4px;
+
+      }
+
+      .button {
+        margin-left: 14px;
+      }
+
+      .path2 button {
+        margin-top: 4px;
+      }
+
+      .CS50-Track .button {
+        align-items: center;
+      }
+       
+        .content {
+            background: #f2f2f2;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        .content h1 {
+          color: #333;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            padding-bottom: 4rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 2px solid #1A1A1A;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+        }
+        .section-title {
+          color: #333;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .section a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #333;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .section a:hover {
+            background-color: #77a8d8;
+        }
+
+  </style>
+</body>
+</html>

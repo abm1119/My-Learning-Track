@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Odyssey</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+        }
+        .fancy-border {
+            border: 2px solid #e2e8f0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .fancy-border:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+        .track-card {
+            height: 180px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border-radius: 10px;
+            filter: grayscale(100%);
+            transition: filter 0.5s ease, transform 0.3s ease;
+        }
+        .track-card:hover {
+            filter: grayscale(0%);
+            transform: scale(1.02);
+        }
+        .track-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+            z-index: 1;
+        }
+        .track-card .content {
+            position: relative;
+            z-index: 2;
+            color: white;
+        }
+        @media (max-width: 640px) {
+            .track-card {
+                height: 140px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="flex min-h-screen">
+        <!-- Sidebar -->
+        <div id="sidebar" class="sidebar w-64 fixed h-full left-0 top-0 transform -translate-x-full transition-transform duration-300 ease-in-out md:translate-x-0 z-30">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold mb-8 text-center">My Learning Odyssey</h2>
+                <nav>
+                    <ul class="space-y-4">
+                        <li><a href="#home" class="block py-2 px-4 rounded hover:bg-gray-700 transition duration-300">Home</a></li>
+                        <li><a href="https://abdul-basit-memon.notion.site/90dd5415780b426aa3b2b687e1f5e303?pvs=74" target="_blank" class="block py-2 px-4 rounded hover:bg-gray-700 transition duration-300">About Me</a></li>
+                        <li><a href="#quick_access" class="block py-2 px-4 rounded hover:bg-gray-700 transition duration-300">Resources Quick</a></li>
+                        <li><a href="#Contact" class="block py-2 px-4 rounded hover:bg-gray-700 transition duration-300">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 md:ml-64 p-4 sm:p-8">
+            <header class="mb-12 flex justify-between items-center">
+                <button id="sidebarToggle" class="md:hidden text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1 class="text-3xl sm:text-4xl font-bold text-center flex-grow">My Learning Odyssey</h1>
+            </header>
+            
+   <!-- Learning Tracks -->
+   <section class="mb-16" id="home">
+    <h2 class="text-3xl font-bold mb-8 text-center">Learning Tracks</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8">
+        <a href="https://maui-track.notaku.site/" target="_blank" class="fancy-border block relative track-card rounded-lg" data-src="https://picsum.photos/800/600?random=1">
+            <div class="content p-4 sm:p-6 absolute bottom-0 left-0 right-0">
+                <h3 class="text-xl font-semibold mb-2">Mobile App Development</h3>
+                <p class="text-sm">MAUI - for cross-platform mobile development</p>
+            </div>
+        </a>
+        <a href="https://abm-data-science-track.super.site/" target="_blank" class="fancy-border block relative track-card rounded-lg" data-src="https://picsum.photos/800/600?random=2">
+            <div class="content p-4 sm:p-6 absolute bottom-0 left-0 right-0">
+                <h3 class="text-xl font-semibold mb-2">Data Science</h3>
+                <p class="text-sm">Exploring data analysis, machine learning, and statistical modeling</p>
+            </div>
+        </a>
+        <a href="https://abdul-basit-memon.notion.site/5fcf199fe88e4bf0b4ae40643fa93fda?v=c384054c2f864327b3f2cedddb236e92" target="_blank" class="fancy-border block relative track-card rounded-lg" data-src="https://picsum.photos/800/600?random=3">
+            <div class="content p-4 sm:p-6 absolute bottom-0 left-0 right-0">
+                <h3 class="text-xl font-semibold mb-2">Academic Research Learnings </h3>
+                <p class="text-sm">Investigating large-scale data processing and analytics</p>
+            </div>
+        </a>
+        <a href="https://abdul-basit-memon.notion.site/Final-Year-Project-9523a1ef2f464e92865108069cbb0a3b?pvs=74" target="_blank" class="fancy-border block relative track-card rounded-lg" data-src="https://picsum.photos/800/600?random=4">
+            <div class="content p-4 sm:p-6 absolute bottom-0 left-0 right-0">
+                <h3 class="text-xl font-semibold mb-2">Final Year Project</h3>
+                <p class="text-sm">Culminating project showcasing skills and knowledge</p>
+            </div>
+        </a>
+        <a href="https://roadmap.sh/datastructures-and-algorithms" target="_blank" class="fancy-border block relative track-card rounded-lg" data-src="https://picsum.photos/800/600?random=5">
+            <div class="content p-4 sm:p-6 absolute bottom-0 left-0 right-0">
+                <h3 class="text-xl font-semibold mb-2">Data Structures and Algorithms</h3>
+                <p class="text-sm">Mastering fundamental computer science concepts</p>
+            </div>
+        </a>
+        <a href="https://abm-learning-track.blogspot.com/2024/08/my-learning-track-resources.html" target="_blank" class="fancy-border block relative track-card rounded-lg" data-src="https://picsum.photos/800/600?random=6">
+            <div class="content p-4 sm:p-6 absolute bottom-0 left-0 right-0">
+                <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                <p class="text-sm">Creating modern and responsive web applications</p>
+            </div>
+        </a>
+    </div>
+</section>
+            <!-- Quick Links -->
+            <section class="mb-16" id="quick_access">
+                <h2 class="text-2xl sm:text-3xl font-bold mb-8 text-center">Quick Links</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                    <a href="https://abdul-basit-memon.notion.site/90dd5415780b426aa3b2b687e1f5e303?pvs=74"target="_blank" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-user-circle text-2xl mb-2 text-blue-500"></i>
+                        <p class="text-sm">About Me</p>
+                    </a>
+                    <a href="https://www.playbook.com/computer-systems-engineeing"target="_blank" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-sticky-note text-2xl mb-2 text-green-500"></i>
+                        <p class="text-sm">Notes</p>
+                    </a>
+                    <a href="https://resources-heaven.super.site/" target="_blank" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-book text-2xl mb-2 text-purple-500"></i>
+                        <p class="text-sm">Resources Heaven</p>
+                    </a>
+                    <a href="https://abm-learning-track.blogspot.com/2024/08/my-learning-track-resources.html" target="_blank" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-road text-2xl mb-2 text-yellow-500"></i>
+                        <p class="text-sm">Track Material</p>
+                    </a>
+                    <a href="https://xtiles.app/65a2a3cc83f7541b54f335f8" target="_blank" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-puzzle-piece text-2xl mb-2 text-red-500"></i>
+                        <p class="text-sm">Prologware Solution</p>
+                    </a>
+                    <a href="https://hashnode.com/@abmdesign9111" target="_blank" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-blog text-2xl mb-2 text-indigo-500"></i>
+                        <p class="text-sm">Blog</p>
+                    </a>
+                    <a href="https://abdulbasitmemon.notion.site/d9cdb927bf1f48b6ad6abc54cf5b86a1?pvs=74" target="_blank" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-brain text-2xl mb-2 text-pink-500"></i>
+                        <p class="text-sm">Notion</p>
+                    </a>
+                    <a href="https://abm-vault.notionapps.com/" target="_blank" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-vault text-2xl mb-2 text-gray-700"></i>
+                        <p class="text-sm">Vault</p>
+                    </a>
+                    <a href="http://elearning.iba-suk.edu.pk/login/index.php" target="_blank" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-graduation-cap text-2xl mb-2 text-blue-600"></i>
+                        <p class="text-sm">Siba eLearning</p>
+                    </a>
+                    <a href="https://grades.iba-suk.edu.pk:84/" class="fancy-border bg-white p-4 rounded-lg text-center hover:bg-gray-50 transition duration-300">
+                        <i class="fas fa-user-graduate text-2xl mb-2 text-green-600"></i>
+                        <p class="text-sm">Students Siba Portal</p>
+                    </a>
+                </div>
+            </section>
+
+       <!-- Contact Information -->
+       <section id="Contact">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-8 text-center">Connect With Me</h2>
+        <div class="fancy-border bg-white p-6 rounded-lg">
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="tel:+923160360531" class="flex items-center space-x-2 text-gray-600 hover:text-blue-500 transition duration-300">
+                    <i class="fas fa-phone"></i>
+                    <span class="text-sm">+92 316 036 0531</span>
+                </a>
+                <a href="mailto:basitmemon67@gmail.com" class="flex items-center space-x-2 text-gray-600 hover:text-blue-500 transition duration-300">
+                    <i class="fas fa-envelope"></i>
+                    <span class="text-sm">basitmemon67@gmail.com</span>
+                </a>
+            </div>
+            <p class="text-center mt-4 text-sm">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                Old National Highway Road Near FM Bakers Street Khairpur Mir's, Sindh Pakistan
+            </p>
+            <div class="mt-6 flex justify-center space-x-4">
+                <!-- Add social media links here -->
+                <a href="https://www.linkedin.com/in/abdul-basit-memon-614961166/" target="_blank" class="text-gray-600 hover:text-blue-500">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://github.com/abm1119" target="_blank" class="text-gray-600 hover:text-gray-900">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://twitter.com/AbdAbdulbasit1" target="_blank" class="text-gray-600 hover:text-blue-400">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="https://www.threads.net/@abmemon.memon.9" target="_blank" class="text-gray-600 hover:text-purple-500"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-threads" viewBox="0 0 16 16">
+                        <path d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161"/>
+                      </svg>
+                </a>
+            </div>
+            <div>
+                <p class="text-center mt-4 text-sm"> 
+                    <strong>
+                        © Made by ABDUL BASIT MEMON
+                    </strong>
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    const sidebar = document.getElementById('sidebar');
+
+    sidebarToggle.addEventListener('click', function() {
+        sidebar.classList.toggle('-translate-x-full');
+    });
+
+    document.addEventListener('click', function(event) {
+        const isClickInside = sidebar.contains(event.target) || sidebarToggle.contains(event.target);
+        if (!isClickInside && !sidebar.classList.contains('-translate-x-full') && window.innerWidth < 768) {
+            sidebar.classList.add('-translate-x-full');
+        }
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-4');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.fancy-border').forEach(el => {
+        el.classList.add('opacity-0', 'translate-y-4', 'transition', 'duration-500', 'ease-out');
+        observer.observe(el);
+    });
+
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.style.backgroundImage = `url(${img.dataset.src})`;
+                    imageObserver.unobserve(img);
+                }
+            });
+        });
+
+        document.querySelectorAll('.track-card').forEach(card => {
+            imageObserver.observe(card);
+        });
+    }
+});
+</script>
+</body>
+</html>

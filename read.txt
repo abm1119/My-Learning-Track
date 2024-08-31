@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Tracks</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class ="bg-accent">
+	<div class="container mx-auto">
+        <header class="bg-white py-4 shadow-md">
+            <nav class="flex justify-between items-center px-4">
+                <h1 class="text-2xl font-bold text-primary">My Learning Tracks</h1>
+                <button id="menu-toggle" class="md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </nav>
+        </header>
+        <main class="flex mt-8 gap-4">
+            <aside id="sidebar" class="hidden md:block w-1/4 bg-white shadow-md rounded-lg p-4">
+                <ul class="space-y-4">
+                    <li><a href="#" class="hover:underline text-primary">About Me</a></li>
+                    <li><a href="#" class="hover:underline text-primary">Resume</a></li>
+                    <li><a href="#" class="hover:underline text-primary">Resources Heaven</a></li>
+                    <li><a href="#" class="hover:underline text-primary">Prologware Solutions</a></li>
+                </ul>
+            </aside>
+            <section class="w-full md:w-3/4 px-4">
+                <h2 class="text-3xl font-bold mb-4 text-primary">My Learning Tracks</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <h3 class="text-xl font-bold mb-2 text-primary">Mobile App Development (Kotlin Multiplatforms)</h3>
+                        <p>Description of your mobile app development learning track goes here.  This is where you can add a brief overview of your journey in Kotlin Multiplatforms mobile development.  Highlight your key skills, projects you've worked on, or any interesting aspects of your learning process. This is your chance to showcase your expertise.</p>
+                        <a href="#" class="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <h3 class="text-xl font-bold mb-2 text-primary">Data Science</h3>
+                        <p>Description of your data science learning track goes here.  You can expand on this section by talking about your experience with data analysis, machine learning, or specific data science tools and techniques you've mastered. This is your opportunity to demonstrate your data-driven skills and insights.</p>
+                        <a href="#" class="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <h3 class="text-xl font-bold mb-2 text-primary">Research on Big Data</h3>
+                        <p>Description of your big data research learning track goes here.  Talk about your research interests, the projects you've undertaken, or any specific challenges you've faced in big data research. This section can showcase your analytical and problem-solving abilities in the field of big data.</p>
+                        <a href="#" class="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-white py-4 mt-8 shadow-md">
+            <div class="flex flex-col items-center md:flex-row justify-between px-4">
+                <div class="text-center md:text-left">
+                    <h4 class="text-lg font-bold mb-2 text-primary">Contact Information</h4>
+                    <p class="text-secondary">Email: your_email@example.com</p>
+                    <p class="text-secondary">Phone: (123) 456-7890</p>
+                    <p class="text-secondary">Address: 123 Main Street, City, State</p>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <h4 class="text-lg font-bold mb-2 text-primary">Follow Me</h4>
+                    <ul class="flex gap-4">
+                        <li><a href="#" target="_blank"><i class="fab fa-linkedin text-secondary hover:text-primary"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter text-secondary hover:text-primary"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-github text-secondary hover:text-primary"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-thread text-secondary hover:text-primary"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('closed');
+            sidebar.classList.toggle('open');
+        }
+    </script>
+	<script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
